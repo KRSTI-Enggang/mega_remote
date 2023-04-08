@@ -5,6 +5,7 @@ Servo servos[25];
 
 void setup() {
   Serial.begin(115200);
+  Serial.setTimeout(50);
   AttachServos();
 }
 
